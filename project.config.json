@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "projectName": "ProofSight",
+  "projectDescription": "Autonomous Visual Evidence Agent for physical equipment kit inspections",
+  "ontology": {
+    "definitionFile": "docs/ontology.md",
+    "ubiquitousLanguageFile": "docs/ontology.md"
+  },
+  "documentation": {
+    "sourceDirectory": "docs",
+    "primaryDocs": [
+      "docs/workflow.md",
+      "docs/ontology.md"
+    ]
+  },
+  "deliverables": {
+    "affirmationMatrixJson": "docs/affirmation-matrix.json",
+    "affirmationMatrixMarkdown": "docs/affirmation-matrix.md",
+    "userStoriesFile": "docs/user-stories.md",
+    "technicalTasksFile": "docs/technical-tasks.md",
+    "demoPresentationsDirectory": "docs/demos",
+    "onboardingFile": "docs/onboarding.md"
+  },
+  "designSystem": {
+    "tokensFile": "design-system/tokens/tokens.json",
+    "componentSpecsFile": "design-system/components/specifications.md"
+  },
+  "testing": {
+    "unitTestRunner": "npm test",
+    "e2eTestRunner": "npx playwright test",
+    "slowMoDelayMs": 600
+  },
+  "gates": {
+    "minPlanAffirmationScore": 95,
+    "requireZeroOrphans": true
+  }
+}
