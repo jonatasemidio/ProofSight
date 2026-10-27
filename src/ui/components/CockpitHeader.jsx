@@ -32,9 +32,9 @@ export default function CockpitHeader({
         <div className="brand-text-block">
           <div className="brand-title-line">
             <span className="brand-name">ProofSight</span>
-            <span className="brand-version-badge">AVIONICS v2.4</span>
+            <span className="brand-version-badge">INSPECTION AGENT v2.4</span>
           </div>
-          <span className="brand-classification">Autonomous Computer Vision & Spatial Guidance</span>
+          <span className="brand-classification">Autonomous Visual Evidence & Spatial Guidance</span>
         </div>
       </div>
 

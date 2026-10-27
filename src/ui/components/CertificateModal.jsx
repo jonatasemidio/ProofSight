@@ -14,7 +14,7 @@ export default function CertificateModal({ verdict, onClose }) {
         {/* Certificate Header Banner */}
         <div className={`cert-top-banner ${isPassed ? 'passed' : 'review'}`}>
           <div className="cert-status-pill">
-            {isPassed ? 'PASSED — AIRWORTHINESS RELEASE AUTHORIZED' : 'HELD — SUPERVISOR SIGN-OFF REQUIRED'}
+            {isPassed ? 'PASSED — EQUIPMENT RELEASE AUTHORIZED' : 'HELD — SUPERVISOR SIGN-OFF REQUIRED'}
           </div>
           <span className="cert-authority">POLICY ENGINE • BR-09 COMPLIANT</span>
         </div>
