@@ -1,7 +1,7 @@
 # Devpost Submission — ProofSight: Autonomous Visual Evidence Agent
 **Competition:** OpenCV AI Competition 2026  
 **Category / Track:** Agentic Vision  
-**Repository:** [github.com/jonatashackathons/ProofSight](https://github.com/jonatashackathons/ProofSight)  
+**Repository:** [github.com/jonatasemidio/ProofSight](https://github.com/jonatasemidio/ProofSight)  
 
 ---
 
@@ -79,7 +79,7 @@ Frontline operators do not want generic chatbot prompts or black-box predictions
 ---
 
 ## 🔗 Links & Resources
-- **GitHub Repository**: [github.com/jonatashackathons/ProofSight](https://github.com/jonatashackathons/ProofSight)
+- **GitHub Repository**: [github.com/jonatasemidio/ProofSight](https://github.com/jonatasemidio/ProofSight)
 - **Executive Video Demos**:
   - [Adaptive Occlusion & Release Demo](./demos/demo-US-01-04-07-10.md)
   - [Blur Quality Gate Rejection Demo](./demos/demo-US-05.md)
